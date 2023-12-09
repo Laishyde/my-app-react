@@ -1,0 +1,66 @@
+/* Em um arquivo chamado Card.css ou no arquivo CSS global do seu projeto */
+
+.card3 {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+        grid-template-columns: auto auto auto ;
+}
+
+.like-dislike-counts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.like-count,
+.dislike-count {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    font-size: 1.2em;
+    margin-left: 8px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+@media(max-width:600px){
+   
+    .conteudo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card3{
+        width: 200px;
+        height: 250px;
+    }
+    .image{
+        width: 200px;
+
+    }
+   .text1{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+   }
+   
+}
+
+/* Adicione outras estilizações conforme necessário */
