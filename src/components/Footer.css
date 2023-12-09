@@ -486,8 +486,12 @@ h3{
         }
      .final{
         font-size: 10px;
-      margin-left: 38px;
+      margin-left: 68px;
         
+     }
+     .voltar{
+        margin-left: 68px;
+
      }
      footer{
         width: 100%;
